@@ -1,0 +1,16 @@
+Weight = input ("Enter Body Weight")
+Age = input ("Enter Age")
+sex = str(input("Sex, Male or Female:"))
+split = none
+NestedList1= [["Squat", 405], ["Bench", 315], ["Deadlift", 495],]
+NestedList2= [["Squat", 225], ["Bench", 135], ["Deadlift", 315],] 
+if sex == "male":
+   split = 1
+   for Item in NestedList1:
+   print(":", Item,[0], " "*(9-len(item[0])), ":")
+else:
+    split = 2
+    print NestedList2
+
+if split == 1:
+    
